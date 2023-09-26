@@ -242,7 +242,7 @@ public class PDFView extends RelativeLayout {
      * True if annotations should be rendered
      * False otherwise
      */
-    private boolean annotationRendering = false;
+    private boolean annotationRendering = true;
 
     /**
      * True if the view should render during scaling<br/>
@@ -1466,7 +1466,7 @@ public class PDFView extends RelativeLayout {
 
         private boolean swipeHorizontal = false;
 
-        private boolean annotationRendering = false;
+        private boolean annotationRendering = true;
 
         private String password = null;
 
