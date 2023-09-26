@@ -155,7 +155,7 @@ class RenderingHandler extends Handler {
             this.thumbnail = thumbnail;
             this.cacheOrder = cacheOrder;
             this.bestQuality = bestQuality;
-            this.annotationRendering = annotationRendering;
+            this.annotationRendering = true;
         }
     }
 }
