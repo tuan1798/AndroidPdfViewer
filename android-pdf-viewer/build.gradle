@@ -13,5 +13,5 @@ android {
 
 dependencies {
     implementation 'androidx.core:core:1.3.1'
-    api 'com.github.TalbotGooday:PdfiumAndroid:1.0.1'
+    api 'com.github.tuan1798:PdfiumAndroid:2.1.1'
 }
